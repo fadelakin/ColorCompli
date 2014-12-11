@@ -6,8 +6,9 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
+                android:id="@+id/layout"
                 tools:context="com.fisheradelakin.colorcompli.ComplimentsActivity"
-    android:background="#3498db">
+                android:background="#3498db">
 
     <TextView
         android:text="@string/default_compliment"
@@ -26,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/get_another_compliment"
-        android:id="@+id/button"
+        android:id="@+id/getAnotherCompliment"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
