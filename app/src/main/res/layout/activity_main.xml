@@ -16,16 +16,30 @@
         android:textSize="@dimen/text_size"
         android:textColor="#ecf0f1"
         android:textStyle="bold"
+        android:layout_marginTop="69dp"
+        android:id="@+id/titleTextView"
+        android:layout_below="@+id/getHelpButton"
+        android:layout_alignLeft="@+id/colorEditText"
+        android:layout_alignStart="@+id/colorEditText"/>
+
+    <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/help"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="86dp"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ecf0f1"
+        android:textSize="24sp"
+        android:clickable="true"
+        android:id="@+id/helpTextView"/> -->
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/get_compliments"
-        android:id="@+id/button"
+        android:id="@+id/getComplimentsButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -35,12 +49,25 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:layout_above="@+id/button"
+        android:id="@+id/colorEditText"
+        android:layout_above="@+id/getComplimentsButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:hint="@string/favorite_color"
         android:textColorHint="#ffecf0f1"
         android:textColor="#ffecf0f1"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:id="@+id/getHelpButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ecf0f1"
+        android:background="#3498db"
+        android:textSize="20sp"/>
 
 </RelativeLayout>
