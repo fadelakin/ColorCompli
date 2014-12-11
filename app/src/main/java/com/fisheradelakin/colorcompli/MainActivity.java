@@ -75,10 +75,4 @@ public class MainActivity extends ActionBarActivity {
             return builder.create();
         }
     }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        mColorField.setText("");
-    }
 }
