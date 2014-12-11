@@ -4,13 +4,15 @@
     <string name="app_name">ColorCompli</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
     <string name="favorite_color">What is your favorite color?</string>
     <string name="compliment">Color Compliments</string>
     <string name="get_compliments">Compliments</string>
-
     <string name="what_colors">You can use the colors: turquoise, emerald, green, blue, orange, yellow, grey, purple, and red.</string>
     <string name="ok">Ok</string>
     <string name="help">"?"</string>
+    <string name="title_activity_compliments">ComplimentsActivity</string>
+    <string name="get_another_compliment">Get Another Compliment</string>
+    <string name="default_compliment">I like your Facebook status.</string>
+    <string name="key_color">color</string>
 
 </resources>

@@ -22,19 +22,6 @@
         android:layout_alignLeft="@+id/colorEditText"
         android:layout_alignStart="@+id/colorEditText"/>
 
-    <!-- <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/help"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textColor="#ecf0f1"
-        android:textSize="24sp"
-        android:clickable="true"
-        android:id="@+id/helpTextView"/> -->
-
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
